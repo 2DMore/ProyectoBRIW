@@ -173,7 +173,7 @@ function App() {
 
 async function obtenerResultados(busqueda: string) {
   //const response = await fetch(`https://api.chucknorris.io/jokes/search?query=${busqueda}`);
-  const response = await fetch(`http://localhost/briw__/ProyectoBRIW/Back/search.php?q=${busqueda}`);
+  const response = await fetch(`http://localhost/BRIW/ProyectoBRIW/Back/search.php?q=${busqueda}`);
   if (!response.ok) {
     throw new Error('Error fetching');
   }
@@ -182,7 +182,7 @@ async function obtenerResultados(busqueda: string) {
 }
 
 async function fetchDataFromPHP (busqueda : string ) {
-  const response = await fetch(`http://localhost/briw__/ProyectoBRIW/Back/search.php?q=${busqueda}`);
+  const response = await fetch(`http://localhost/BRIW/ProyectoBRIW/Back/search.php?q=${busqueda}`);
   if (!response.ok) {
     throw new Error('Error fetching');
   }
@@ -193,7 +193,7 @@ async function fetchDataFromPHP (busqueda : string ) {
 
 async function fetchDataFromPHPWithFaceta(lastQuery : string, faceta: string) {
   //const response = await fetch(`https://api.chucknorris.io/jokes/search?query=${busqueda}`);
-  const response = await fetch(`http://localhost/briw__/ProyectoBRIW/Back/search.php?q=${lastQuery}&f=${faceta}`);
+  const response = await fetch(`http://localhost/BRIW/ProyectoBRIW/Back/search.php?q=${lastQuery}&f=${faceta}`);
   if (!response.ok) {
     throw new Error('Error fetching');
   }

@@ -266,8 +266,8 @@ function lenguaje($contenido){
 
 
 $startUrls = [
-    'https://www.xataka.com.mx/',
-    'https://es.wikipedia.org/'
+    'https://www.xataka.com.mx/'
+    //'https://es.wikipedia.org/'
 ];
 
 $maxDepth = 2;
