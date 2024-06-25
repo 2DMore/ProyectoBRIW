@@ -8,6 +8,8 @@ Para poder ejecutar el frontEnd necesitas  instalar
 - [**nvm**](https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe)
 - [**TailSense**](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
+La carpeta del respositiorio debe de estar en C:/../xammp/htdocs/BRIW
+
 Para ejecuar el frontEnd (Una vez instalado lo anterior)
 
 ~~~
