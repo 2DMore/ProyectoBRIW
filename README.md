@@ -7,6 +7,7 @@ Para poder ejecutar el frontEnd necesitas  instalar
 - [**node.js**](https://nodejs.org/en)
 - [**nvm**](https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe)
 - [**TailSense**](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [**Solr**](https://www.apache.org/dyn/closer.lua/solr/solr/9.6.1/solr-9.6.1-src.tgz?action=download)
 
 La carpeta del respositiorio debe de estar en C:/../xammp/htdocs/BRIW
 
